@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="HW5_1.Student" project="SD_hw5" file="/SD_hw5/src/HW5_1/Student.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="407" width="183" x="129" y="-58"/>    
+  <class id="1" language="java" name="hw5_Interface.BorrowBook" project="SD_hw5" 
+    file="/SD_hw5/src/hw5_Interface/BorrowBook.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="124" x="91" y="149"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
+  <interface id="2" language="java" name="hw5_Interface.OperateBook" project="SD_hw5" 
+    file="/SD_hw5/src/hw5_Interface/OperateBook.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="406" y="216"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <realization id="3">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
